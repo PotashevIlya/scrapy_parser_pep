@@ -25,10 +25,11 @@ python -m pip install --update pip
 ```
 pip install -r requirements.txt
 ```
-### Запустить парсинг командой
+## Как запустить
 ```
 scrapy crawl pep
 ```
+Результаты парсинга будут сохранены в директории /results
 ___  
 #### Автор проекта:    
 :small_orange_diamond: [Поташев Илья](https://github.com/PotashevIlya)
