@@ -11,6 +11,9 @@ Python, Scrapy
 ```
 git clone  https://github.com/PotashevIlya/scrapy_parser_pep
 ```
+```
+cd scrapy_parser_pep
+```
 ### Создать и активировать виртуальное окружение
 ```
 python -m venv venv

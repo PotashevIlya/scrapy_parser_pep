@@ -51,7 +51,7 @@ class PepParseSpiderMiddleware:
             yield r
 
     def spider_opened(self, spider):
-        spider.logger.info('Spider opened: %s' % spider.name)
+        spider.logger.info(f'Spider opened: {spider.name}')
 
 
 class PepParseDownloaderMiddleware:
@@ -98,4 +98,4 @@ class PepParseDownloaderMiddleware:
         pass
 
     def spider_opened(self, spider):
-        spider.logger.info('Spider opened: %s' % spider.name)
+        spider.logger.info(f'Spider opened: {spider.name}')
