@@ -25,7 +25,9 @@ class PepParsePipeline:
         filename = STATUS_SUMMARY_FILENAME.format(
             now=dt.datetime.now().strftime(DATETIME_FORMAT)
         )
-        with open(f'{self.results_dir}/{filename}', 'w', encoding='utf-8') as f:
+        with open(
+            f'{self.results_dir}/{filename}', 'w', encoding='utf-8'
+        ) as f:
             csv.writer(
                 f, dialect=csv.unix_dialect, quoting=csv.QUOTE_NONE
             ).writerows(
